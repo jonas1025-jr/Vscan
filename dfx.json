@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "vscan_backend": {
+      "main": "src/vscan_backend/main.mo",
+      "type": "motoko"
+    },
+    "vscan_frontend": {
+      "dependencies": [
+        "vscan_backend"
+      ],
+      "source": [
+        "src/vscan_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "vscan_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
