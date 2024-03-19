@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { test_backend } from 'declarations/test_backend';
+import { vscan_backend } from 'declarations/vscan_backend';
 
 const App = () => {
   const [products, setProducts] = useState([]);
@@ -8,7 +8,7 @@ const App = () => {
   const [baseProductName, setBaseProductName] = useState('');
 
   useEffect(() => {
-    test_backend.getAllProductEntries().then((products) => {
+    vscan_backend.getAllProductEntries().then((products) => {
       setProducts(products);
     }).catch((error) => {
       console.error(error);
@@ -32,7 +32,7 @@ const App = () => {
         id: `${baseProductName} ${i + 1}`,
         caseIds: []
       };
-      await test_backend.createProductEntry(newProduct);
+      await vscan_backend.createProductEntry(newProduct);
       newProducts.push(newProduct);
     }
     setProducts([...products, ...newProducts]);
