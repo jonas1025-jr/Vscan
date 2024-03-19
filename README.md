@@ -17,12 +17,12 @@ Counterfeit products pose significant risks to consumer health, industry trust, 
 
 ## Features
 
-- *QR Code Verification*: Unique QR codes are assigned to products, allowing consumers to scan and verify product authenticity.
-- *Blockchain Integration*: Utilizes blockchain technology for secure and tamper-resistant storage of product verification data.
-- *Transparency and Traceability*: Provides transparent tracking of products throughout the supply chain, enhancing trust and accountability.
-- *Smart Contracts*: Implements smart contracts for automated verification processes and subscription management.
-- *Data Monetization*: Generates revenue through the sale of anonymized data insights derived from product verification activities.
-- *Scalable and Secure*: Built with scalability and security in mind, ensuring reliable product authentication and consumer trust.
+- QR Code Verification: Unique QR codes are assigned to products, allowing consumers to scan and verify product authenticity.
+- Blockchain Integration: Utilizes blockchain technology for secure and tamper-resistant storage of product verification data.
+- Transparency and Traceability: Provides transparent tracking of products throughout the supply chain, enhancing trust and accountability.
+- Smart Contracts: Implements smart contracts for automated verification processes and subscription management.
+- Data Monetization: Generates revenue through the sale of anonymized data insights derived from product verification activities.
+- Scalable and Secure: Built with scalability and security in mind, ensuring reliable product authentication and consumer trust.
 
 ## Installation
 
@@ -31,7 +31,7 @@ To install and deploy the V-SCAN system, follow these steps:
 1. Clone this repository to your local machine:
 
    bash
-   git clone https://github.com/yourusername/v-scan.git
+   git clone https://github.com/jonas1025-jr/v-scan.git
    
 
 2. Install dependencies:
@@ -46,8 +46,13 @@ To install and deploy the V-SCAN system, follow these steps:
 
 5. Start the application:
 
-   bash
-   npm start
+To start the replica
+   dfx start
+
+To deploy the project 
+
+    dfx deploy
+
    
 
 For detailed installation instructions, refer to the [Installation Guide](docs/installation.md).
@@ -56,7 +61,7 @@ For detailed installation instructions, refer to the [Installation Guide](docs/i
 
 To use V-SCAN for product verification, follow these steps:
 
-1. Scan the QR code on the product using the V-SCAN mobile app or web interface.
+1. Scan the QR code on the product using the V-SCAN mobile app 
 2. The system will authenticate the product using blockchain technology and provide verification results.
 3. If the product is genuine, the consumer will receive confirmation, ensuring trust and authenticity.
 4. In case of counterfeit or suspicious products, consumers can report them through the V-SCAN platform, contributing to consumer safety and brand protection.
