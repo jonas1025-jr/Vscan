@@ -1,21 +1,22 @@
 # V-SCAN: Product Verification System
 
-V-SCAN is a digital tool designed to efficiently identify counterfeit products on the market, ensuring consumer safety and brand credibility. This repository contains the source code and documentation for the V-SCAN system.
-
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
-Counterfeit products pose significant risks to consumer health, industry trust, and economic stability. V-SCAN addresses these challenges by providing a robust product verification system powered by blockchain technology. By leveraging unique QR codes and blockchain-based authentication, V-SCAN enables consumers to verify the authenticity of products and helps businesses combat counterfeiting.
+PROBLEM STATEMENT
+
+Counterfeit products pose significant risks to consumer health, industry trust, and economic stability in Zambia and all over the world as people find it difficult to differentiate between the genune Products and the counterfeit and this poses as a huge threat to the health of the consumers.V-SCAN addresses these challenges by providing a robust product verification system powered by blockchain technology. By leveraging unique QR codes and blockchain-based authentication, V-SCAN enables consumers to verify the authenticity of products and helps businesses combat counterfeiting. 
+
 
 ## Features
+
+V-SCAN is a digital tool designed to efficiently identify counterfeit products on the market, ensuring consumer safety and brand credibility. Vscan mainly has the following features":
 
 - QR Code Verification: Unique QR codes are assigned to products, allowing consumers to scan and verify product authenticity.
 - Blockchain Integration: Utilizes blockchain technology for secure and tamper-resistant storage of product verification data.
@@ -43,8 +44,6 @@ To install and deploy the V-SCAN system, follow these steps:
 3. Configure the environment variables and blockchain integration settings.
 
 4. Deploy the smart contracts and initialize the blockchain network.
-
-5. Start the application:
 
 To start the replica
    dfx start
